@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Semantic Website</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+  }
+
+  /* HEADER */
+  header {
+    background: #d9d9d9;
+    padding: 20px;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  header p {
+    margin-top: 5px;
+    color: #333;
+  }
+
+  /* NAV */
+  nav {
+    background: #e6e6e6;
+    padding: 15px 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li {
+    margin: 6px 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #1a73e8;
+  }
+
+  /* LAYOUT */
+  main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* ARTICLE AREA */
+  article {
+    flex: 3;
+  }
+
+  .card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+
+  .card h2 {
+    margin-top: 0;
+  }
+
+  /* SIDEBAR */
+  aside {
+    flex: 1;
+  }
+
+  .sidebar-box {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>My Semantic Website</h1>
+  <p>This is an example of all HTML5 semantic tags.</p>
+</header>
+
+<!-- NAV -->
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Articles</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+</nav>
+
+<!-- MAIN -->
+<main>
+
+  <!-- ARTICLE SECTION -->
+  <article>
+
+    <div class="card">
+      <h2>Article Title</h2>
+      <p>Written by John Doe</p>
+    </div>
+
+    <div class="card">
+      <h3>Introduction</h3>
+      <p>This section introduces the topic using semantic elements.</p>
+    </div>
+
+    <div class="card">
+      <h3>Details</h3>
+      <p>This section goes into detail.</p>
+    </div>
+
+  </article>
+
+  <!-- SIDEBAR -->
+  <aside>
+    <div class="sidebar-box">
+      <h3>Sidebar</h3>
+      <p>This is an aside for related links or content.</p>
+    </div>
+  </aside>
+
+</main>
+
+</body>
+</html>
